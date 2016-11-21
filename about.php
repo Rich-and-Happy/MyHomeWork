@@ -13,11 +13,27 @@ $about_user = 'noob ';
     </head>
     <body>
       <h1> About User </h1>
-<p><?= $name_user ?></p>
-<p><?= $age_user ?></p>
-<p><?= $mail_user ?></p>
-<p><?= $city_user ?></p>
-<p><?= $about_user ?></p>
-
+      <table>
+        <tr>
+          <td>name: </td>
+          <td><?= $name_user ?></td>
+        </tr>
+        <tr>
+          <td>age: </td>
+          <td><?= $age_user ?></td>
+        </tr>
+        <tr>
+          <td>mail: </td>
+          <td><?= $mail_user ?></td>
+        </tr>
+        <tr>
+          <td>city: </td>
+          <td><?= $city_user ?></td>
+        </tr>
+        <tr>
+          <td>about: </td>
+          <td><?= $about_user ?></td>
+        </tr>
+      </table>
     </body>
 </html>
